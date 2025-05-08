@@ -1,0 +1,7 @@
+.user{
+    display: flex;
+}
+.start{
+    justify-content: center;
+    align-items: center;
+}
