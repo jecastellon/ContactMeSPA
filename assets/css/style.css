@@ -1,5 +1,34 @@
-.user{
+body{
+    margin: 0;
+    padding: 0;
+}
+.estructura{
     display: flex;
+}
+.navbar{
+    padding: 20px;
+    /*height: 100vh;*/
+}
+.navbar img{
+    max-width: 3em;
+}
+.usertab{
+    display: flex;
+    justify-content: space-between;
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+}
+.usermenu{
+    display: flex;
+}
+.newchatbtn{
+    padding: 20px;
+}
+.contact{
+    display: flex;
+    align-items: center;
 }
 .start{
     justify-content: center;
