@@ -1,36 +1,77 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Roboto";
 }
 .estructura{
     display: flex;
 }
 .navbar{
-    padding: 20px;
-    /*height: 100vh;*/
-}
-.navbar img{
-    max-width: 3em;
+    min-width: 200px;
+    width: 280px;
 }
 .usertab{
+    padding: 15px;
+    border: 1px solid #E8EBE4;
     display: flex;
     justify-content: space-between;
 }
+.usertab img{
+    width: 2.5em;
+    border-radius: 50%;
+}
 .userinfo{
+    gap: 10px;
     display: flex;
     align-items: center;
 }
 .usermenu{
     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.usermenu i{
+    color: #BEC1BB
 }
 .newchatbtn{
-    padding: 20px;
+    padding: 30px;
+    border: 1px solid #E8EBE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newchatbtn button{
+    padding: 10px 40px;
+    background-color: #A491D2;
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: #CDC3E6
 }
 .contact{
+    padding: 12px;
+    gap: 10px;
+    border: 1px solid #E8EBE4;
     display: flex;
     align-items: center;
 }
+.contact img{
+    width: 3em;
+    border-radius: 50%;
+}
 .start{
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    font-weight: light;
+    text-align: center;
+    margin: auto;
+}
+.start img{
+    border-radius: 5%;
+}
+.bienvenue{
+    font-size: small;
 }
